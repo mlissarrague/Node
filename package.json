@@ -1,0 +1,36 @@
+
+{
+  "name": "node-adwords",
+  "version": "201806.0.1",
+  "description": "An unofficial - feature complete - Adwords sdk for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisAlvares/node-adwords.git"
+  },
+  "keywords": [
+    "adwords",
+    "api"
+  ],
+  "author": "Chris Alvares <mail@chrisalvares.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisAlvares/node-adwords/issues"
+  },
+  "homepage": "https://github.com/ChrisAlvares/node-adwords#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "googleapis": "^31.0.2",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.1",
+    "request": "^2.87.0",
+    "soap": "^0.24.0",
+    "xmlbuilder": "^10.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
