@@ -3,7 +3,7 @@
   "name": "node-adwords",
   "version": "201806.0.1",
   "description": "An unofficial - feature complete - Adwords sdk for NodeJS",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "mocha test"
   },

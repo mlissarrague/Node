@@ -1,7 +1,7 @@
 const http = require('http');
 //require adwords
-const AdwordsUser = require('node-adwords').AdwordsUser;
-const AdwordsConstants = require('node-adwords').AdwordsConstants;
+const AdwordsUser = require('Node').AdwordsUser;
+const AdwordsConstants = require('Node').AdwordsConstants;
 
 
 http.createServer(function (req, res) {
@@ -11,6 +11,7 @@ http.createServer(function (req, res) {
 
 
 let user = new AdwordsUser({
+  //WTF AM I SUPPOSED TO PUT HERE?!?!?!
     developerToken: 'QBNpVwST5DweFUoqzrz3NA', //your adwords developerToken
     userAgent: 'lissarrague', //any company name
     clientCustomerId: '282-312-1813', //the Adwords Account id (e.g. 123-123-123)
@@ -22,6 +23,7 @@ let user = new AdwordsUser({
 let campaignService = user.getService('CampaignService', 'v201806')
 
 //create selector
+//brings data as an objet
 let selector = {
     fields: ['Id', 'Name'],
     ordering: [{field: 'Name', sortOrder: 'ASCENDING'}],
